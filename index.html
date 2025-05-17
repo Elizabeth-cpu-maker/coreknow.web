@@ -2,124 +2,82 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CoreKnow - Aprender tecnología es fácil</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoreKnow - Tecnología al alcance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #0f0f1a;
-      color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #0e0e1a;
+      color: #fff;
     }
-
     header {
-      background-color: #3e1f47;
-      padding: 20px;
+      background-color: #2e0e4f;
+      padding: 1.5rem;
       text-align: center;
     }
-
     header h1 {
       font-family: 'Orbitron', sans-serif;
-      font-size: 2.5em;
-      margin: 0;
-      color: #e0b3ff;
+      font-size: 2rem;
+      color: #c792ff;
     }
-
-    nav {
-      margin-top: 10px;
-    }
-
-    nav a {
-      color: #ffffff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
     section {
-      padding: 50px 20px;
       max-width: 1000px;
       margin: auto;
+      padding: 2rem 1rem;
     }
-
-    section h2 {
-      color: #c084fc;
-      font-family: 'Orbitron', sans-serif;
+    h2 {
+      color: #b083ff;
+      border-bottom: 2px solid #b083ff;
+      padding-bottom: 0.5rem;
     }
-
-    .download-button {
+    p {
+      line-height: 1.6;
+    }
+    .btn-download {
       display: inline-block;
-      background-color: #a855f7;
-      color: white;
-      padding: 15px 30px;
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #a464ff;
+      color: #fff;
       text-decoration: none;
       border-radius: 8px;
-      font-size: 1.2em;
-      margin-top: 20px;
+      font-weight: bold;
       transition: background 0.3s;
     }
-
-    .download-button:hover {
-      background-color: #7c3aed;
+    .btn-download:hover {
+      background-color: #873ee6;
     }
-
     footer {
       background-color: #1a1a2e;
       text-align: center;
-      padding: 30px 20px;
-      margin-top: 40px;
-      color: #c084fc;
-      font-size: 1em;
-      border-top: 2px solid #3e1f47;
-    }
-
-    ul {
-      list-style-type: square;
-      margin-left: 20px;
-    }
-
-    .section-box {
-      background-color: #191928;
-      border: 1px solid #2c2c3a;
-      padding: 20px;
-      border-radius: 12px;
-      margin-bottom: 30px;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-style: italic;
+      color: #bbb;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>CoreKnow</h1>
-    <nav>
-      <a href="#problema">Problema</a>
-      <a href="#solucion">Solución</a>
-      <a href="#mision">Misión</a>
-      <a href="#valores">Valores</a>
-      <a href="#descarga">Descargar</a>
-    </nav>
+    <p>La forma más fácil de aprender hardware y software</p>
   </header>
 
-  <section class="section-box" id="problema">
+  <section>
     <h2>Problema</h2>
-    <p>Las dificultades para comprender conceptos técnicos de hardware y software. La falta de fuentes accesibles, claras y adaptativas de información tecnológica.</p>
-  </section>
+    <p>Las dificultades para comprender conceptos técnicos de hardware y software, así como la falta de fuentes accesibles, claras y adaptativas de información tecnológica.</p>
 
-  <section class="section-box" id="solucion">
     <h2>Solución</h2>
-    <p>Una aplicación basada en inteligencia artificial que responde preguntas, dando una interfaz intuitiva con respuestas para el usuario y con recursos visuales interactivos para mejorar la comprensión.</p>
-  </section>
+    <p>Una aplicación basada en inteligencia artificial que responde preguntas, con una interfaz intuitiva y recursos visuales interactivos para mejorar la comprensión.</p>
 
-  <section class="section-box" id="mision">
     <h2>Misión</h2>
-    <p>Abrir el acceso al conocimiento tecnológico, facilitando la comprensión de conceptos complejos de hardware y software a través de una aplicación educativa, fácil de usar.</p>
+    <p>Abrir el acceso al conocimiento tecnológico, facilitando la comprensión de conceptos complejos a través de una app educativa y fácil de usar.</p>
 
     <h2>Visión</h2>
-    <p>Expandir nuestros horizontes llevando este proyecto a toda persona posible. Queremos ser el líder en educación tecnológica, alcanzando reconocimiento global como una aplicación que transformó la manera de aprender.</p>
-  </section>
+    <p>Expandir nuestros horizontes y ser líderes en educación tecnológica, alcanzando reconocimiento global como una app que transformó la manera de aprender.</p>
 
-  <section class="section-box" id="valores">
     <h2>Valores Fundamentales</h2>
     <ul>
       <li>Accesibilidad</li>
@@ -130,17 +88,12 @@
       <li>Inclusión digital</li>
       <li>Orientación al usuario</li>
     </ul>
-  </section>
 
-  <section class="section-box" id="descarga">
-    <h2>Descarga la app</h2>
-    <p>¡Explora el mundo del hardware y software con CoreKnow!</p>
-    <a href="assets/CoreKnow.apk" class="download-button" download>Descargar APK</a>
+    <a href="assets/CoreKnow.apk" class="btn-download" download>Descargar la app</a>
   </section>
 
   <footer>
-    <p><strong>VOLVEMOS SIMPLE LO COMPLEJO</strong></p>
+    VOLVEMOS SIMPLE LO COMPLEJO
   </footer>
-
 </body>
 </html>
